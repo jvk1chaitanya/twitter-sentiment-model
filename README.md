@@ -35,9 +35,13 @@ To evaluate our model's performance, we need to split our data into training and
 Our model architecture consists of the following layers:
 
 Embedding layer: Used to convert words into dense vectors.
+
 SpatialDropout1D layer: Used for regularization.
+
 LSTM layer: Used for learning the sequence dependencies.
+
 Dense layers: Used for increasing the model's capacity.
+
 Output layer: Used to produce a probability distribution over the three classes.
 
 ## Model Training
