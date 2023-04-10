@@ -2,4 +2,9 @@ pandas
 numpy
 matplotlib
 tensorflow
+regex
+scikit-learn
+beautifulsoup4
+spacy[en]
+Flask
 -e .

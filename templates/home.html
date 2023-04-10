@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>Tweet-Recognizer</title>
+  <!-- add bootstrap CDN link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      {% if prediction == "Positive" %}
+      background-color: #6CFA14;
+      {% elif prediction == "Negative" %}
+      background-color: #F92E2E;
+      {% elif prediction == "Neutral" %}
+      background-color: #FA8714;
+      {% else %}
+      background-color: white;
+      {% endif %}
+    }
+    h1 {
+      color: blue;
+    }
+    form {
+      width: 50%;
+      margin: auto;
+      padding-top: 5vh;
+      justify-content: center;
+    }
+    p {
+      font-size: 20px;
+    }
+    .container {
+      padding-top: 30vh; /* add padding-top to the container */
+    }
+    .btn-block { /* add this style to center the button */
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Welcome to Tweet-Recognizer Web</h1>
+    <form action="/predict" method="POST" class="form-group">
+      <input type="text" name="tweet" placeholder="Enter your tweet here" class="form-control" required />
+      <button type="submit" class="btn btn-block btn-primary">Analyse</button>
+    </form>
+    {% if prediction %}
+    <p class="text-center">Your tweet was : {{ my_tweet }}</p>
+    <p class="text-center">The sentiment of your tweet is {{ prediction }}</p>
+    {% endif %}
+  </div>
+</body>
+</html>
