@@ -60,7 +60,9 @@ In this project, we have shown how to perform sentiment analysis on tweets using
 ## Video and Notebook for reference : 
 Below is a Video of our model in action:
 
+https://user-images.githubusercontent.com/83896570/230912764-7373e5c0-5f89-4cc5-923c-a88e9f7bac6a.mp4
 
+\
 You can find the notebook for this project 
-1) By navigating to the [notebooks]()
+1) By navigating to the [notebooks](https://github.com/jvk1chaitanya/twitter-sentiment-model/blob/4ec3568e5f31f929c0227eba5d340cd31d5506ee/Notebook/twitter-sentiment-classification-using-lstm.ipynb)
 2) You can also find the notebook on [Kaggle](https://www.kaggle.com/code/jvkchaitanya410/twitter-sentiment-classification-using-lstm)
