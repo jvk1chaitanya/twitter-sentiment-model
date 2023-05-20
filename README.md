@@ -8,10 +8,15 @@ The dataset used in this project is the Twitter US Airline Sentiment dataset. It
 We have used various Python libraries in this project. Here's a brief overview of each library:
 
 Pandas: Used for data manipulation and analysis.
+
 Matplotlib: Used for data visualization.
+
 Beautiful Soup: Used for parsing HTML and XML documents.
+
 Spacy: Used for natural language processing tasks such as tokenization and lemmatization.
+
 Re: Used for regular expression operations.
+
 Tensorflow: Used for building and training deep learning models.
 
 ## Data Preprocessing
